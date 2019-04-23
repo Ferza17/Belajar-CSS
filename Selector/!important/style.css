@@ -1,0 +1,23 @@
+*{
+  background-color: #adc;
+}
+
+
+.paragraf-pertama{
+  color:blue;
+}
+
+p{
+  color:yellow !important;
+}
+
+#paragraf{
+  color: red;
+}
+
+
+/* NOTE:
+===================================================
+  Teks akan berwarna kuning karena menggunakan !important
+  yang memiliki nilai Specificity lebih besar dari selector yang lainya
+  =================================================*/

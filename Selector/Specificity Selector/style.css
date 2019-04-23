@@ -1,0 +1,23 @@
+*{
+  background-color: #adc;
+}
+
+
+.paragraf-pertama{
+  color:blue;
+}
+
+p{
+  color:yellow;
+}
+
+#paragraf{
+  color: red;
+}
+
+
+/* NOTE:
+===================================================
+  Teks akan berwarna merah karena nilai Specificity id
+  lebih besar dari selector yang lainya
+  =================================================*/

@@ -1,0 +1,34 @@
+*{
+  background-color: #ddd;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  width:150px;
+  height:30px;
+  padding: 0 10px;
+  font-size: 18px;
+  margin-left: 50px;
+  line-height: 30px;
+}
+/*======================================
+  cari tag <li> yang berada pada urutan ke 1
+                Dari atas
+  kemudian 2 tag selanjutnya sampai akhir
+======================================*/
+li:nth-child(2n+1){
+  background-color: #abc;
+}
+
+/*======================================
+  cari tag <li> yang berada pada setiap perulangan ke-2
+                Dari bawah
+  tapi mulai dari tag ke-2 (hasil dari 2-0)
+======================================*/
+
+li:nth-last-child(2n-0){
+  background-color: #aca;
+}

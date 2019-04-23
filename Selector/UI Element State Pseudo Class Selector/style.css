@@ -1,0 +1,19 @@
+*{
+  background-color: #ffa;
+}
+
+td input[title*="form"]{
+  background-color: #fff;
+}
+
+input[title*="form"]:disabled{
+  border:solid red 2px;
+}
+
+input[title*="form"]:enabled{
+  border:solid green 2px;
+}
+
+input[title*="form"]:checked{
+  margin-left: 30px;
+}

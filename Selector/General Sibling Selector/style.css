@@ -1,0 +1,24 @@
+*{
+	background-color: #A8B4BF;
+}
+
+
+/*===========================
+	cari seluruh tag <p> yang
+	berada setelah tag <h2>
+	dan merupakan sibling(saudara).
+===============================*/
+h2 ~ p {
+	color: #CC11C4;
+}
+
+
+
+/*===========================
+	cari seluruh tag <section> yang
+	berada setelah tag <footer>
+	dan merupakan sibling(saudara).
+===============================*/
+section ~ footer{
+	color: #53F546;
+}

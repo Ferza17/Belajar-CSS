@@ -1,0 +1,18 @@
+strong{
+  color: #ffa;
+  background-color: #111;
+
+}
+
+.container{
+  background-color: #fff;
+  color: red;
+}
+
+body{
+  background-color: #ddd;
+}
+
+/* NOTE: Kenapa tidak tertimpa ?
+lkarena Inheritance tidak melakukan
+last rule apply */

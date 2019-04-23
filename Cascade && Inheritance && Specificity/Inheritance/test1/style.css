@@ -1,0 +1,10 @@
+body{
+  background-color: #adc;
+}
+
+/* NOTE: =============================================
+        Semua Teks akan berwarna #adc karena saya memberikan
+        style kepada tag <body>. tag <body> merupakan grandparent
+        yang ootomatis menimpa para childnya
+        ===============================================
+    */

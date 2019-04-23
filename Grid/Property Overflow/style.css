@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  border: 1px solid white;
+  color: white;
+  background-color: #14bce6;
+  font-size: 2em;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+header{
+  width: 100%;
+}
+
+footer{
+  height: 100px;
+  clear: both;
+}

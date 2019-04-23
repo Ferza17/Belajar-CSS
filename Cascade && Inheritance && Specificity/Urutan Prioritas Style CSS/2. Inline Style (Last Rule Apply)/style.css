@@ -1,0 +1,22 @@
+*{
+  background-color: #abd;
+}
+
+p{
+  color:red;
+}
+
+p{
+  color:green;
+}
+
+/* NOTE: ======================================
+          Paragraf akan berwarna biru karena
+          urutan Prioritas Inline Style lebih tinggi dari embedded / external
+          Style.
+          urutanya
+          1. User style
+          2. Inline style
+          3. Embedded /  External style
+          4. Web Browser style
+          =========================================*/

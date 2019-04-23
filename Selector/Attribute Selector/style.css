@@ -1,0 +1,91 @@
+*{
+	background-color: #f2f2f2;
+}
+
+/*============================
+======= ATRIBUT selector ========
+mencari tag html yang memiliki
+		atribut "title" 
+============================*/
+[title]{
+	color: #ff0066;
+}
+
+/*=================================
+======= ATRIBUT sselector =============
+mencari tag html "li" yang memiliki
+ 		atribut "title" 
+=================================*/
+li[title]{
+	color: #3333ff;
+}
+
+
+/*=================================
+======= ATRIBUT selector ==========
+	mencari tag html yang memiliki
+	 atribut "title" dengan nilai 
+		"kota bandung" 
+=================================*/
+[title="kota bandung"]{
+	color: green;
+	background-color: white;
+}
+
+
+/*=================================
+========== ATRIBUT selector =======
+	mencari tag html yang memiliki
+	atribut "title" yang mengandung 
+			kata "kota" 
+=================================*/
+[title~="kota"]{
+	color: pink;
+	background-color: #0000cc;
+	/*===============
+	====== note =====
+	karakter "~"/tilde digunakan
+	untuk mencari kata yang dipisah dengan spasi
+	==========================================*/
+
+}
+
+
+/*=================================
+========== ATRIBUT selector =======
+	mencari tag html yang memiliki
+	atribut "title" yang mengandung 
+			kata "ba" 
+=================================*/
+[title*="ba"]{
+	background-color: #66ffcc;
+	color:#00001a;
+	/*===============
+	====== note =====
+	karakter "*"/asterik digunakan
+	untuk mencari kata yang tidak terpisah oleh spasi
+	==========================================*/
+}
+
+/*=================================
+========== ATRIBUT selector ========
+	mencari tag html yang memiliki
+	atribut "href" yang mengandung 
+		diawali karakter "http" 
+=================================*/
+[href^="http"]{
+	color:green;
+	background-color: #ffff00;
+}
+
+
+/*=================================
+========== ATRIBUT selector ========
+	mencari tag html yang memiliki
+	atribut "href" yang mengandung 
+		diakhiri karakter "http" 
+=================================*/
+[href$=".pdf"]{
+	color:green;
+	background-color: #ff3300;
+}

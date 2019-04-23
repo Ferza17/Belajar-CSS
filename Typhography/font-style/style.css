@@ -1,0 +1,22 @@
+*{
+  background-color: white;
+
+}
+
+.satu{
+  font-size: 50px;
+  color:rgb(50,100,20);
+  font-style: normal;
+}
+
+.dua{
+  font-size: 50px;
+  color:rgb(100,50,20);
+  font-style: italic;
+}
+
+.tiga{
+  font-size: 50px;
+  color:rgb(20,50,100);
+  font-style: oblique;
+}

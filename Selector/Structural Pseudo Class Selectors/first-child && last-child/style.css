@@ -1,0 +1,42 @@
+*{
+  background-color: #ddd;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  width: 150px;
+  height: 30px;
+  padding: 0 10px;
+  font-size: 18px;
+  margin-left: 50px;
+  line-height: 30px;
+}
+
+/*=====================================
+Memberikan warna kepada tag <li> pertama
+(li kondisinya menjadi child). kepada
+first-child (anak pertama) dari parentnya
+=========================================*/
+
+li:first-child{
+  background-color: #eae;
+}
+
+/*=====================================
+Memberikan warna kepada tag <li> terakhir
+(li kondisinya menjadi child). kepada
+last-child (anak terakhir) dari parentnya
+=========================================*/
+li:last-child{
+  background-color: #dda;
+}
+
+
+/* NOTE: Syarat bisa digunkanya selector first-child
+adalah childnya harus satu jenis artinya childnya harus memiliki tag/id/class yang sama
+example : open test.html in your's folder*/

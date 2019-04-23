@@ -1,0 +1,45 @@
+*{
+	background-color: #ddd;
+}
+/*===============================
+	mencari seluruh tag <a>
+	yang memiliki atribut href
+	sedangkan tag <a> tanpa href
+	tidak diwarnai
+=================================*/
+:link{
+	color:#33cccc;
+}
+
+/*===============================
+	mengubah seluruh link yang
+	telah di klik
+=================================*/
+:visited{
+	color:#e6e6e6;
+}
+
+/*===============================
+	mengubah seluruh tag <a> yang
+	sedang dilewati cursor.
+	 NOTE: Jika pakai ini maka Selector :active tidak berfungsi
+=================================*/
+a:hover{
+	color: #000;
+}
+
+/*===============================
+	mengubah seluruh link yang berada
+	pada tag <a> yang sedang di klik
+=================================*/
+a:active{
+	color:red;
+}
+
+/*===============================
+	mengubah seluruh tag <a> yang
+	memiliki id / anchor point daftar-kota
+=================================*/
+:target{
+	color:#ffff66;
+}

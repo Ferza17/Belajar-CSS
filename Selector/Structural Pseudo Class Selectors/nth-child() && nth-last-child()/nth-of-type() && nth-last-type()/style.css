@@ -1,0 +1,19 @@
+*{
+  background-color: #ddd;
+}
+
+p:nth-child(3){
+  background-color: red;
+}
+
+p:nth-child(5){
+  background-color: blue;
+}
+
+
+/*================================
+  Hanya mewarnai tipe tag <p>
+==================================*/
+p:nth-of-type(7){
+  background-color: green;
+}

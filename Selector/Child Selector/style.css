@@ -1,0 +1,22 @@
+*{
+	background-color: #abc;
+}
+
+
+/*=============================
+Mengubah tag "p" yang berada pada
+parentnya class "section"
+=============================*/
+.section > p{
+	background-color: red;
+}
+
+
+/*=============================
+Mengubah tag "p" yang mempunyai title "name" pada
+parentnya class "author"
+=============================*/
+.author > p[title~="name"]{
+	background-color: #fff;
+	color: red;
+}

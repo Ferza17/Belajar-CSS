@@ -1,0 +1,21 @@
+/*  ==========================
+	=== 	Tag Selector   ===
+	==========================*/
+
+body {
+	background-color: #eee;
+}
+
+h1{
+	color: purple;
+}
+
+p{
+	color:blue;
+}
+
+blockquote{
+	font-style: italic;
+	font-size:100%;
+	color:red;
+}

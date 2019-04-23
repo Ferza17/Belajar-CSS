@@ -1,0 +1,34 @@
+.Penjelasan{
+	background-color: #ddd;
+}
+
+.Penjelasan >.value4{
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+}
+
+.Penjelasan > .value3{
+	border: 1px solid black;
+    margin: 25px 50px 75px;
+    background-color: lightblue;
+}
+
+.Penjelasan > .value2{
+	border: 1px solid black;
+    margin: 25px 50px;
+    background-color: lightblue;
+}
+
+.Penjelasan > .value1{
+	border: 1px solid black;
+    margin: 25px;
+    background-color: lightblue;
+}
+
+.Penjelasan > .autovalue{
+	background-color: lightblue;
+	width:300px;
+    margin: auto;
+    border: 1px solid red;
+}

@@ -1,0 +1,32 @@
+.header h1[title*="ke"]{
+	background-color: #daa;
+}
+
+
+.container .section h2[title~="head"]{
+	background-color: #cba;
+}
+
+.section p{
+	background-color: #dac;
+}
+
+/*==============================
+		Descendant Selector
+Mengubah em yang berindukan Body
+=================================*/
+body .container .aside p em{
+	background-color: red;
+	color: #ffff00;
+}
+
+
+/*===========================
+       	Child Selector
+mengubah tag "em" yang berada ("  >  ")
+		pada tag "p"
+============================*/
+p > em{
+	background-color: #ddd;
+	color: #000066;
+}

@@ -1,0 +1,34 @@
+*{
+  background-color: #ddd;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  width:150px;
+  height:30px;
+  padding: 0 10px;
+  font-size: 18px;
+  margin-left: 50px;
+  line-height: 30px;
+}
+/*======================================
+  cari tag <li> yang berada pada urutan ganjil
+                Dari atas
+          dari sebuah parent elemet
+======================================*/
+li:nth-child(odd){
+  background-color: #bba;
+}
+
+/*======================================
+  cari tag <li> yang berada pada setiap perulangan genap
+                Dari bawah
+          dari sebuah parent eleme
+======================================*/
+
+li:nth-last-child(even){
+  background-color: #aab;
+}

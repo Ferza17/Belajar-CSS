@@ -1,0 +1,6 @@
+/*=================================
+  mewarnai element dari tipenya sendiri
+===================================*/
+p:first-of-type{
+  background-color: #aea;
+}

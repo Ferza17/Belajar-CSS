@@ -1,0 +1,36 @@
+*{
+  background-color: white;
+
+}
+
+.satu{
+  font-size: 50px;
+  text-decoration-line:underline;
+  text-decoration-style: solid;
+  text-decoration-color: red;
+}
+
+.dua{
+  font-size: 50px;
+  color:rgb(100,50,20);
+  text-decoration-line: overline;
+  text-decoration-style: dashed;
+  text-decoration-color: #faf;
+  font-style: italic;
+}
+
+.tiga{
+  font-size: 50px;
+  color:rgb(20,50,100);
+  text-decoration-line:line-through;
+  text-decoration-style:wavy;
+  text-decoration-color: rgba(200,49,9,1);
+  font-style: oblique;
+}
+
+.empat{
+  font-size: 50px;
+  color:rgb(50,100,20);
+  text-decoration: underline dashed rgb(255,172,168);
+  font-style: normal;
+}

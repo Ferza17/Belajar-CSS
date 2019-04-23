@@ -1,0 +1,23 @@
+.conrainer{
+	background-color: #eee;
+}
+
+.judul{
+	color: olive;
+}
+
+.peringatan{
+	color: red;
+}
+
+.penjelasan{
+	color: blue;
+}
+
+.penting{
+	font-size: 22px;
+}
+
+.pertama{
+	background-color: #abc;
+}

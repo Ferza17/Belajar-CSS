@@ -1,0 +1,30 @@
+/*=================================
+		Adjacent Selector
+cari seluruh tag "p" yang berada 
+		setelah	tag "h2"
+===================================*/
+
+h2 + p{
+	background-color: #aaa;
+}
+
+/*=================================
+		Adjacent Selector
+cari seluruh tag "p" yang berada 
+		setelah	tag "p"
+===================================*/
+
+p + p{
+	background-color: #aba;
+}
+
+
+
+/*=================================
+		Adjacent Selector
+cari seluruh tag "h2" yang berada 
+		setelah	class "section"
+===================================*/
+.section + h2{
+	background-color: #cac;
+}

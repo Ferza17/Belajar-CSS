@@ -1,0 +1,17 @@
+*{
+	background-color: #ddd;
+}
+
+
+
+/*======================================
+			Group Selector
+Menggabungkan berbagai atribut mennjadi
+			1 Atribut
+========================================*/
+
+.judul-utama, #judul-kedua, [title*="pa"]{
+	text-align: center;
+	background-color: #bb99ff;
+	color: #ffff4d;
+}

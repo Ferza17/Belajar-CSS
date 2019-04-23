@@ -1,0 +1,36 @@
+*{
+  background-color: white;
+
+}
+
+.satu{
+  font-size: 50px;
+  color:rgb(50,100,20);
+  text-decoration:underline;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.dua{
+  font-size: 50px;
+  color:rgb(100,50,20);
+  text-decoration: overline;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.tiga{
+  font-size: 50px;
+  color:rgb(20,50,100);
+  text-decoration: line-through;
+  font-style: oblique;
+  text-transform: lowercase;
+}
+
+.empat{
+  font-size: 50px;
+  color:rgb(50,100,20);
+  text-decoration: underline overline;
+  font-style: normal;
+  text-transform: none;
+}

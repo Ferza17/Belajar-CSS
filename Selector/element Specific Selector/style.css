@@ -1,0 +1,31 @@
+/*============================
+Mengubah tag h1 yang memiliki
+		class head
+==============================*/
+
+h1.head{
+	background-color: #abc;
+}
+
+
+/*============================
+Mengubah tag h1 yang memiliki
+		id head
+==============================*/
+p#pgraf2{
+	background-color: #ff66ff;
+}
+
+
+
+/*============================
+			Mengubah 
+1. tag "p" yang punya class "pgraf"
+2. tag "h1" yang memiliki title dengan kata "ucapan"
+3. tag "p" yang punya ID "author"	
+		
+==============================*/
+p.pgraf, h1[title~="ucapan"], p#author{
+	background-color: #4d79ff;
+	color: #ffff4d;
+}

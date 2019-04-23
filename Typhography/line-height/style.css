@@ -1,0 +1,31 @@
+*{
+  background-color: white;
+
+}
+
+.satu{
+  font-size: 30px;
+  line-height: 1.2em;
+  text-align: left;
+  color:rgb(50,100,20);
+  text-decoration:underline;
+  font-style: normal;
+}
+
+.dua{
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  color:rgb(100,50,20);
+  text-decoration: overline;
+  font-style: italic;
+}
+
+.tiga{
+  text-align: right;
+  line-height: 1.9;
+  font-size: 30px;
+  color:rgb(20,50,100);
+  text-decoration: line-through;
+  font-style: oblique;
+}
