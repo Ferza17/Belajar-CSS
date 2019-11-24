@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#product-overview {
+    background: url('/bg.jpg');
+    /*
+    padding: 20px;   Memberi space kepada containernya atau marginya. padding ada di dalam margin 
+    
+    Shorthanded border 
+    border: 5px black solid;
+
+    panjangnya 
+    border-style: solid;
+    color: black;
+    border-width: 5px; 
+    margin: 20px; Margin itu megatur space atau jarak elemen tsb dgn elemen yg lainya 
+    */
+
+    width: 100%;
+    height: 528px;
+    /* height: 100%; mengikuti parent */
+
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* h1 {
+    font-family: sans-serif;
+} */
+
+.main-header {
+    width: 100%;
+    background: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    cursor: pointer;
+    text-decoration: none;
+    padding: 3px 0;
+}
+
+/* 
+    Pseudo Class
+.main-nav__item a::after {
+    content: " (Link)";
+    color: red;
+} */
+
+
+/*
+    Grouping Rule
+*/
+
+.main-nav__item a:hover,  
+.main-nav__item a:active{
+    color: whitesmoke;
+    font-weight: bold;
+    border-bottom: 5px solid white;
+}
+
+
+/* 
+    Pseudo Elements
+p::first-letter{
+    color: red;
+} */
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #ff1b68 ;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active{
+    color: #ff1b68;
+    background-color: white;
+    border: none;
+}
